@@ -1,0 +1,591 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+.top {
+    height: 768px;
+    width: 100%;
+    background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
+    
+}
+
+.top_box {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.header {
+    padding-top: 42px;
+}
+
+.nav__button:hover .nav__img {
+    transform: scale(1.05);
+}
+
+.top__info {
+    margin-top: 115px;
+    background: url(img/top-picture.svg) no-repeat right top;
+    flex: 1;
+}
+
+.top__heading {
+    font-size: 64px;
+    color: #1F3F68;
+    width: 504px;
+    font-weight: 300;
+    line-height: 74px;
+    letter-spacing: 0.04em;
+    margin-bottom: 32px;
+}
+
+.text {
+    font-size: 16px;
+    line-height: 26px;
+    color: #1F3F68;
+    letter-spacing: 0.05em;
+    opacity: 0.6;
+}
+
+.top__text {
+    width: 425px;
+}
+
+.button {
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background: #5A98D0;
+    box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+}
+
+.button:hover {
+    box-shadow: 0 5px 10px 1px rgb(33 33 33 / 35%);
+}
+
+.button_top {
+    margin-top: 71px;
+}
+
+.top__button {
+    border-radius: 10px;
+    padding: 15px 50px;
+}
+
+.heading {
+    font-size: 36px;
+    text-align: center;
+    margin-top: 64px;
+    font-weight: 300;
+}
+
+.advantages__cards {
+    display: flex;
+    justify-content: space-between;
+    margin: 64px 0;
+}
+
+.advantages__card {
+    width: 359px;
+    background: #FFFFFF;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    padding: 44px 32px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    align-self: center;
+}
+
+.more {
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #5A98D0;
+    display: flex;
+    margin-top: 24px;
+}
+
+.more:hover {
+    font-weight: 700;
+}
+
+.img_more {
+    padding-left: 24px;
+}
+
+.text_project {
+    text-align: center;
+    color: #222222;
+    width: 65%;
+    margin: 32px auto 64px;
+    opacity: 1;
+}
+
+.installation-App {
+    margin-bottom: 80px;
+}
+
+.installation {
+    position: relative;
+}
+
+.heading_installation {
+    position: absolute;
+    font-size: 32px;
+    line-height: 46px;
+    text-align: right;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    right: 64px;
+    font-weight: normal;
+}
+
+.img_installation {
+    width: 100%;
+}
+
+.Apps {
+    display: flex;
+    justify-content: space-between;
+}
+
+.App {
+    position: relative;
+    margin: 32px 0;
+}
+
+.App_margin {
+    margin-right: 32px;
+}
+
+.heading_App {
+    position: absolute;
+    font-size: 28px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    margin-top: 32px;
+    margin-left: 32px;
+    font-weight: normal;
+}
+
+.img_App {
+    width: 100%;
+}
+
+footer {
+    background: #316099;
+    padding-top: 5px;
+}
+
+.footer__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 386px;
+}
+
+.footer__top_info {
+    width: 495px;
+}
+
+.heading__footer {
+    width: 340px;
+    text-align: left;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    padding-bottom: 32px;
+    margin-top: 0;
+}
+
+.footer__top_text {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+
+.footer_button {
+    padding: 15px 80px;
+}
+
+.footer__bottom_info {
+    display: flex;
+    justify-content: space-between;
+    margin: 64px 0;
+}
+
+.footer__info_list {
+    flex: 1;
+    padding-left: 19px;
+    padding-right: 51px;
+    font-size: 16px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+
+.footer__info_link {
+    font-size: 16px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+
+.text_copyright {
+    color: #FFFFFF;
+    opacity: 0.4;
+    display: block;
+    padding-bottom: 64px;
+}
+
+.top__contacts {
+    margin-top: 55px;
+    height: 250px;
+    background-image: url(img/background_contacts.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contacts-heading {
+    font-weight: 500;
+    font-size: 44px;
+    text-align: center;
+    line-height: 74px;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    padding-top: 59px;
+}
+
+.top__contacts_text {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: rgba(255, 255, 255, 0.6);
+    text-align: center;
+    width: 68%;
+    margin: 0 auto;
+}
+
+.contacts__img {
+    padding-top: 135px;
+    padding-bottom: 56px;
+}
+
+.contacts {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 940px;
+}
+
+.small-heading {
+    font-size: 20px;
+    line-height: 30px;
+    color: #1F3F68;
+    font-weight: bold;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+}
+
+.right_form {
+    margin-top: 60px;
+    padding: 56px;
+    width: 540px;
+    height: 800px;
+    background: #FFFFFF;
+    box-shadow: 5px 10px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+}
+
+.form_header {
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    opacity: 0.8;
+    padding-bottom: 8px;
+    padding-top: 32px;
+}
+
+.form_header_first {
+    padding-top: 48px;
+}
+
+.input-text {
+    border: 1px solid #356EAD;
+    box-sizing: border-box;
+    border-radius: 10px;
+    opacity: 0.4;
+    text-transform: capitalize;
+    color: black;
+    width: 100%;
+    height: 72px;
+}
+
+.input-text-message {
+    height: 144px;
+}
+
+.contacts_button {
+    border-radius: 10px;
+    font-weight: 500;
+    text-transform: uppercase;
+    width: 100%;
+    height: 72px;
+    margin-top: 72px;
+}
+
+.map-box {
+    max-width: 940px;
+    margin: 96px auto 112px;
+}
+
+.map {
+    width: 100%;
+    height: 480px;
+}
+
+@media (max-width: 1024px) {
+    .top_box {
+        margin: 0 32px;
+    }
+
+    .top__info {
+        margin-top: 115px;
+        background: url(img/top-picture.svg) no-repeat right center;
+        flex: 1;
+        background-size: 45%;
+    }
+
+    .advantages {
+        margin: 0 32px;
+    }
+
+    .advantages__cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .advantages__card {
+        margin-bottom: 32px;
+    }
+
+    .installation-App {
+        margin: 0 32px 80px;
+    }
+
+    .heading_App {
+        margin-top: 19px;
+        margin-left: 19px;
+    }
+
+    .footer__top {
+        margin: 0 124px;
+    }
+
+    .footer__top_info {
+        width: 340px;
+    }
+
+    .footer_button {
+        padding: 5px 35px;
+        margin-top: 50px;
+    }
+
+    .footer__bottom {
+        margin: 0 143px;
+    }
+
+    .footer__bottom_info {
+        flex-direction: column;
+        margin: 64px 0 39px;
+    }
+
+    .footer__info_list {
+        padding-right: 0;
+        padding-left: 40px;
+        margin-bottom: 25px;
+    }
+}
+
+@media (max-width: 667px) {
+    .top {
+        height: 376px;
+    }
+
+    .top_box {
+        margin: 0 16px;
+    }
+
+    .header {
+        padding-top: 24px;
+    }
+
+    .top__info {
+        background-image: none;
+        margin-top: 33px;
+    }
+
+    .top__heading {
+        font-size: 32px;
+        line-height: 37px;
+        text-align: center;
+        width: 100%;
+        margin-bottom: 12px;
+    }
+
+    .top__text {
+        width: 100%;
+        text-align: center;
+
+    }
+
+    .top__button {
+        padding: 8px 16px;
+    }
+
+    .button_top {
+        margin-top: 28px;
+        text-align: center;
+    }
+
+    .button {
+        font-size: 12px;
+    }
+
+    .advantages {
+        margin: 0 20px;
+    }
+
+    .heading {
+        font-size: 24px;
+        margin-top: 48px;
+    }
+
+    .advantages__cards {
+        margin: 32px 0;
+    }
+
+    .advantages__card {
+        width: 100%;
+    }
+
+    .projects {
+        margin: 0 16px;
+    }
+
+    .text_project {
+        width: 100%;
+    }
+
+    .installation-App{
+        margin: 0 16px 64px;
+    }
+
+    .heading_installation {
+        font-size: 16px;
+        line-height: 19px;
+        right: 16px;
+        margin-top: 16px;
+    }
+
+    .Apps {
+        flex-direction: column;
+
+    }
+
+    .App {
+        margin: 16px 0 0;
+    }
+
+    .App_margin {
+        margin-right: 0;
+    }
+
+    .heading_App {
+        font-size: 16px;
+        line-height: 19px;
+        margin-top: 26px;
+        margin-left: 16px;
+    }
+
+    .footer__top {
+        margin: 0 16px;
+        flex-direction: column;
+        justify-content: start;
+        height: 100%;
+    }
+
+    .footer__top_info {
+        width: 100%;
+        text-align: center;
+    }
+
+    .heading__footer {
+        line-height: 28px;
+        text-align: center;
+    }
+
+    .footer_button {
+        font-size: 16px;
+        margin: 40px auto;
+    }
+
+    .footer__bottom {
+        margin: 0;
+    }
+
+    .footer__bottom_info {
+        margin: 32px 16px 16px 40px;
+    }
+
+    .footer__info_list {
+        padding-left: 23px;
+        margin-bottom: 16px;
+    }
+
+    .text_copyright {
+        padding-bottom: 32px;
+        text-align: center;
+    }
+}
